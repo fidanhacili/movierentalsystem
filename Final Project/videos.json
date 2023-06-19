@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "name": "Beauty And Beast",
+    "imageSrc": "https://www.youtube.com/embed/tgbNymZ7vqY",
+    "createAt": "06-09-2023"
+
+  },
+  {
+    "id": 2,
+    "name": "Deadpool",
+    "duration": "196",
+    "imageSrc": "https://akthemes.com/video/images/slider/banner-2.jpg",
+    "categorieIds": [1, 8, 3],
+    "createAt": "05-09-2023"
+
+  },
+  {
+    "id": 3,
+    "name": "Avengers",
+    "duration": "196",
+    "imageSrc": "https://akthemes.com/video/images/slider/banner-2.jpg",
+    "categorieIds": [1, 8, 3],
+    "createAt": "04-09-2023"
+
+  },
+  {
+    "id": 4,
+    "name": "Batman",
+    "duration": "196",
+    "imageSrc": "https://akthemes.com/video/images/slider/banner-4.jpg",
+    "categorieIds": [1, 8, 3],
+    "createAt": "04-09-2023"
+
+    
+  },
+  {
+    "id": 5,
+    "name": "Extraction",
+    "duration": "196",
+    "imageSrc": "https://akthemes.com/video/images/slider/banner-5.jpg",
+    "categorieIds": [1, 8, 3],
+    "createAt": "04-07-2023"
+
+  },
+  {
+    "id": 6,
+    "name": "Transformer",
+    "duration": "196",
+    "imageSrc": "https://akthemes.com/video/images/slider/banner-6.jpg",
+    "categorieIds": [1, 8, 3],
+    "createAt": "03-07-2023"
+
+  },
+  {
+    "id": 7,
+    "name": "Ninja Turtle",
+    "duration": "196",
+    "imageSrc": "https://akthemes.com/video/images/slider/banner-7.jpg",
+    "categorieIds": [1, 8, 3],
+    "createAt": "03-06-2023"
+
+  }
+]

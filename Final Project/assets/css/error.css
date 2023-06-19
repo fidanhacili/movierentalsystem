@@ -1,0 +1,19 @@
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-fluid h2{
+    font-size: 75px !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 800 !important;
+}
+.btn-primary {
+    color: #fff !important;
+    background-color: #e41a1a;
+    border-color: #e41a1a;
+    font-size: 14px;
+    padding: 10px 30px;
+}

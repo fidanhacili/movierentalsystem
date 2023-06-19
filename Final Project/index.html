@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+   <div class="container">
+    <div class="navbar" style="padding-top: 20px !important;">
+      <div class="logo_wrapper">
+        <a style="color: white !important; font-size: 25px !important;" class="navbar-brand" href="#">You<span style="color: red;">video.</span></a>
+      </div>
+      <div class="ul_wrapper">
+        <ul class="li_wrapper">
+          <li class="dropdown_wrapper" style="padding: 0px 20px; font-size: 20px;">
+            Demos
+            <div class="dropdown_menu">
+              <ul class="dropdown_item_wrapper">
+                <li class="dropdown_item"><a href="index.html">Home 1</a></li>
+                <li class="dropdown_item"><a href="index.html">Home 1</a></li>
+                <li class="dropdown_item"><a href="index.html">Home 1</a></li>
+              </ul>
+            </div>
+          </li>
+          <li id="wrapper" style="padding: 0px 20px; font-size: 20px;">Movies</li>
+          <li id="wrapper" style="padding: 0px 20px; font-size: 20px;">Shows</li>
+          <li id="wrapper" style="padding: 0px 20px; font-size: 20px;">Premium</li>
+          <li class="dropdown_wrapper" style="padding: 0px 20px; font-size: 20px;">
+            Pages
+            <div class="dropdown_menu"> 
+              <ul class="dropdown_item_wrapper">
+                <li class="dropdown_item" ><a href="./login.html">Login</a></li>
+                <li class="dropdown_item"><a href="./register.html">Register</a></li>
+                <li class="dropdown_item"><a href="./payment.html">Payment</a></li>
+                <li class="dropdown_item"><a href="./error.html">Error Connection</a> </li>
+                <li class="dropdown_item">Forgot Password</li>
+                <li class="dropdown_item">Pricing</li>
+                <li class="dropdown_item">Subscription</li>
+                <li class="dropdown_item">Coming Soon</li>
+              </ul>
+            </div>
+          </li>
+          <li class="dropdown_wrapper" style="padding: 0px 20px; font-size: 20px;">
+            Admin
+            <div class="dropdown_menu">
+              <ul class="dropdown_item_wrapper">
+                <li class="dropdown_item">Add Video</li>
+                <li class="dropdown_item">Plan</li>
+                <li class="dropdown_item"><a href="./admin.html">Profile</a></li>
+              </ul>
+            </div>
+          </li>
+          <li id="wrapper" style="padding: 0px 20px; font-size: 20px;">Contact Us </li>
+           <p id="userName" class="userNameText"></p>
+          <button type="button" class="btn btn-danger" style="padding: 10px 30px"><a href="#" id="logInOutBtn">Login</a></button>
+        </ul>
+      </div>
+    </div>
+   </div>
+    <div id="mainCr" class="owl-carousel owl-theme">
+      <div class="item header-image-wrapper deadpool">
+        <div class="cotainer">
+          <div class="row">
+            <div class="col-lg-10">
+              <div class="text-header">
+                <div class="premium">
+                  <span>Premium</span>
+                </div>
+               <div class="casts">
+                <h1 class="text-white">Deadpool: No Good Deed</h1>
+                <h6 class="text-white">Cast:</h6>
+                <p class="text-white">Ryan Reynolds</p>
+                <p class="text-white">Morena Baccarin (Vanessa)</p>
+               </div>
+                <button class="hd">HD</button>
+                <span>Rated 8.5 Genre: Horror, Comedy,Action,Sci-Fi.</span>
+                <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem
+                  Ipsum
+                  has been
+                  the industry's standard dummy text ever since the 1500s, when an unknown printer
+                  took a
+                  galley
+                  of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <button type="button" class="btn btn-danger">Watch</button>
+          <button>+Add To Watchlist</button>
+        </div>
+      </div>
+      <div class="item header-image-wrapper superman">
+        <div class="cotainer">
+          <div class="row">
+            <div class="col-lg-10">
+              <div class="text-header">
+                <div class="premium">
+                  <span>Premium</span>
+                </div>
+               <div class="casts">
+                <h1 class="text-white">Deadpool: No Good Deed</h1>
+                <h6 class="text-white">Cast:</h6>
+                <p class="text-white">Ryan Reynolds</p>
+                <p class="text-white">Morena Baccarin (Vanessa)</p>
+               </div>
+                <button class="hd">HD</button>
+                <span>Rated 8.5 Genre: Horror, Comedy,Action,Sci-Fi.</span>
+                <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem
+                  Ipsum
+                  has been
+                  the industry's standard dummy text ever since the 1500s, when an unknown printer
+                  took a
+                  galley
+                  of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <button type="button" class="btn btn-danger">Watch</button>
+          <button>+Add To Watchlist</button>
+        </div>
+      </div>
+      <div class="item header-image-wrapper awangers">
+        <div class="cotainer">
+          <div class="row">
+            <div class="col-lg-10">
+              <div class="text-header">
+                <div class="premium">
+                  <span>Premium</span>
+                </div>
+               <div class="casts">
+                <h1 class="text-white">Deadpool: No Good Deed</h1>
+                <h6 class="text-white">Cast:</h6>
+                <p class="text-white">Ryan Reynolds</p>
+                <p class="text-white">Morena Baccarin (Vanessa)</p>
+               </div>
+                <button class="hd">HD</button>
+                <span>Rated 8.5 Genre: Horror, Comedy,Action,Sci-Fi.</span>
+                <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem
+                  Ipsum
+                  has been
+                  the industry's standard dummy text ever since the 1500s, when an unknown printer
+                  took a
+                  galley
+                  of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <button type="button" class="btn btn-danger">Watch</button>
+          <button>+Add To Watchlist</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="categories">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-lg-6">
+          <div class="column_direction_center">
+            <p class="red_text textLeft">Choose Ctagories</p>
+            <h2 class="white_text">Top Categories Movies to Watch Now</h2>
+            <p class="white_text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy
+              text ever since the 1500s, when an unknown printer took a galley
+              of type and scrambled it to make a type specimen book
+            </p>
+
+            <div class="divLeft">
+              <button class="custom_danger">View all</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-lg-6">
+          <div class="row categories_img_wrapper">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-12">
+                  <a class="image_links" href="#">
+                    <img src="./assets/images/action.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="col-md-12">
+                  <a class="image_links" href="#">
+                    <img src="./assets/images/comedy.jpg" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 second_img_wrapper">
+              <div class="row">
+                <div class="col-md-12">
+                  <a class="image_links" href="#">
+                    <img src="./assets/images/horror.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="col-md-12">
+                  <a class="image_links" href="#">
+                    <img src="./assets/images/sci.jpg" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="lastMovies">
+    <div class="container">
+      <div class="section-heading d-flex align-items-center justify-content-between">
+        <h2>Latest Movies
+        </h2>
+        <a href="#" class="btn btn-danger btn-sm">View All</a>
+      </div>
+      <div class="row">
+        <div id="lastMoviesWrapper" class="col-md-12">
+          <div id="lastVideosCr" class="owl-carousel owl-theme">
+          </div>
+        </div>
+      </div>
+  </section>
+  <section id="twshow">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <div class="watched">
+            <h6 class="text-red">Most watched Tv Show</h6>
+            <h2 class="text-white">Latest Tv Show</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button class="btn btn-danger">View All</button>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="row" id="topLastElementsWrapper">
+            <!-- top last elements -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="row" id="bottomLastElementsWrapper"></div>
+          <!-- bottom last elements -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="new-trailor">
+    <div class="container">
+      <div class="text section-heading d-flex align-items-center justify-content-between">
+        <h2>New Trailor Released
+        </h2>
+        <a href="#" class="btn btn-danger btn-sm">View All</a>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="video-card">
+            <main>
+              <div class="videoWrapper videoWrap1 videoWrapper169 js-videoWrapper">
+                <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowtransparency="true"
+                  allowfullscreen=""
+                  data-src="https://www.youtube.com/embed/hgzzLIa-93c?autoplay=1&amp; modestbranding=1&amp;rel=0&amp;hl=sv"></iframe>
+                <div class="layer">
+                  <div class="plaeyIconWrapper">
+                    <i class="las la-play-circle"></i>
+                  </div>
+                </div>
+              </div>
+            </main>
+            <div class="video-title">
+              <h6 class="mt-3"><a href="#">Beauty And Beast </a></h6>
+              <p>Released Date :10 Jan 2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="video-card">
+            <main>
+              <div class="videoWrapper videoWrap2 videoWrapper169 js-videoWrapper">
+                <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowtransparency="true"
+                  allowfullscreen=""
+                  data-src="https://www.youtube.com/embed/hgzzLIa-93c?autoplay=1&amp; modestbranding=1&amp;rel=0&amp;hl=sv"></iframe>
+                <div class="layer">
+                  <div class="plaeyIconWrapper">
+                    <i class="las la-play-circle"></i>
+                  </div>
+                </div>
+              </div>
+            </main>
+            <div class="video-title">
+              <h6 class="mt-3"><a href="#">Jungle </a></h6>
+              <p>Released Date :10 Jan 2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="video-card">
+            <main>
+              <div class="videoWrapper videoWrap3 videoWrapper169 js-videoWrapper">
+                <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowtransparency="true"
+                  allowfullscreen=""
+                  data-src="https://www.youtube.com/embed/hgzzLIa-93c?autoplay=1&amp; modestbranding=1&amp;rel=0&amp;hl=sv"></iframe>
+                <div class="layer">
+                  <div class="plaeyIconWrapper">
+                    <i class="las la-play-circle"></i>
+                  </div>
+                </div>
+              </div>
+            </main>
+            <div class="video-title">
+              <h6 class="mt-3"><a href="#">Kobra Kai </a></h6>
+              <p>Released Date :10 Jan 2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="video-card">
+            <main>
+              <div class="videoWrapper videoWrap4 videoWrapper169 js-videoWrapper">
+                <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowtransparency="true"
+                  allowfullscreen=""
+                  data-src="https://www.youtube.com/embed/hgzzLIa-93c?autoplay=1&amp; modestbranding=1&amp;rel=0&amp;hl=sv"></iframe>
+                <div class="layer">
+                  <div class="plaeyIconWrapper">
+                    <i class="las la-play-circle"></i>
+                  </div>
+                </div>
+              </div>
+            </main>
+            <div class="video-title">
+              <h6 class="mt-3"><a href="#">Star Wars</a></h6>
+              <p>Released Date :10 Jan 2020</p>
+            </div>
+          </div>
+  </section>
+  <section id="live-Streaming">
+    <div class="container">
+      <div class="ls section-heading d-flex align-items-center justify-content-between">
+        <h2>Live Streaming
+        </h2>
+        <a href="./login.html" class="btn btn-danger btn-sm">View All</a>
+      </div>
+    
+      <div id="liveStreaming" class="owl-carousel owl-theme">
+        
+
+      </div>
+    </div>
+  </section>
+  <section id="lastMovies">
+    <div class="container">
+      <div class="section-heading d-flex align-items-center justify-content-between">
+        <h2>Recent Movies and Tv Shows
+        </h2>
+        <a href="#" id="today" class="btn btn-danger btn-sm filterButtons">Today</a>
+        <a href="#" id="week" class="btn btn-danger btn-sm filterButtons">This week</a>
+        <a href="#" id="lastThirtyDays" class="btn btn-danger btn-sm filterButtons">Last 30 days</a>
+      </div>
+      <div id="recentMoviesWrapper" class="row">
+
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"
+    integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script type="module" src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

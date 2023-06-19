@@ -1,0 +1,33 @@
+.video-player video {
+  width: 100%;
+  display: block;
+}
+#moviedesign {
+  background-color: rgb(74, 74, 74) !important;
+}
+.coment-body {
+  background-color: rgb(57, 57, 57);
+  position: relative;
+}
+.coment-image img {
+  border-radius: 50%;
+}
+.coment-image {
+  flex: 0 0 40px;
+  margin-right: 10px;
+}
+.coment {
+  display: flex;
+}
+
+.coment-body::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid rgb(57, 57, 57);
+  position: absolute;
+  left: -0.6em;
+  top: 1em;
+}

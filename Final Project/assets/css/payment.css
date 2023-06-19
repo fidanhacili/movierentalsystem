@@ -1,0 +1,118 @@
+.payment-section {
+    height: 100vh;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    border-style: none;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.payment-section .card {
+    border-radius: 10px !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card {
+    border: none;
+    padding: 20px;
+}
+.p-3 {
+    padding: 1rem!important;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.text-center {
+    text-align: center!important;
+}
+.payment-section .form-card {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.radio-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+.custom-control-inline {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-right: 1rem;
+}
+.custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+}
+.payment-section .form-card input, .payment-section .form-card textarea {
+    padding: 10px 15px 5px 15px;
+    border: none;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: arial;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.custom-control-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.label-radio {
+    font-weight: bold;
+    color: #000000;
+}
+.custom-control-label {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
+label {
+    font-size: 14px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+}

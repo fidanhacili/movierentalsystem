@@ -1,0 +1,84 @@
+header{
+  background-image: url(https://akthemes.com/video/images/sub-header/inner-background.jpg);
+  height: 100vh;
+}
+.flex-header {
+  display: flex !;
+  align-items: center;
+  padding-top: 20px;
+}
+.logo {
+  width: 215px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.logo {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+.text-primary {
+  color: #e41a1a !important;
+}
+.logo a{
+  text-decoration: none !important;
+  color: #fff;
+}
+.content-menu {
+  width: calc(100% - 215px);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.btn-menu {
+  display: none;
+  float: right;
+  position: relative;
+  background: transparent;
+  cursor: pointer;
+  margin: 42px 0;
+  width: 26px;
+  height: 16px;
+  -webkit-transition: all ease .238s;
+  -moz-transition: all ease .238s;
+  transition: all ease .238s;
+}
+.btn-menu span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  top: 50%;
+  overflow: hidden;
+  text-indent: 200%;
+}
+#main-menu .menu>li {
+  display: inline-block;
+  position: relative;
+}
+ul li {
+  margin-bottom: 0;
+  line-height: 36px;
+  color: #777;
+  font-size: 14px;
+  position: relative;
+  display: block;
+  padding: 0;
+}
+#main-menu .menu>li>a {
+  line-height: 80px;
+  display: inline-block;
+  padding: 0 20px;
+  color: #868686;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+}

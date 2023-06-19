@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <div class="preloader">
+      <img src="./assets/images/preloader-3.gif" alt="">
+    </div>
+    <header>
+      <div class="navbar">
+        <div class="logo_wrapper">
+          <a style="color: wh !important" class="navbar-brand" href="#"
+            >You<span style="color: red">video.</span></a
+          >
+        </div>
+        <div class="ul_wrapper">
+          <ul class="li_wrapper">
+            <li class="dropdown_wrapper">
+              Demos
+              <div class="dropdown_menu">
+                <ul class="dropdown_item_wrapper">
+                  <li class="dropdown_item">home 1</li>
+                  <li class="dropdown_item">home 2</li>
+                  <li class="dropdown_item">home 3</li>
+                </ul>
+              </div>
+            </li>
+            <li>Movies</li>
+            <li>Shows</li>
+            <li>Premium</li>
+            <li class="dropdown_wrapper">
+              Pages
+              <div class="dropdown_menu">
+                <ul class="dropdown_item_wrapper">
+                  <li class="dropdown_item">Login</li>
+                  <li class="dropdown_item">
+                    <a href="./register.html">Register</a>
+                  </li>
+                  <li class="dropdown_item">Payment</li>
+                  <li class="dropdown_item">Error Connection</li>
+                  <li class="dropdown_item">Forgot Password</li>
+                  <li class="dropdown_item">Pricing</li>
+                  <li class="dropdown_item">Subscription</li>
+                  <li class="dropdown_item">Coming Soon</li>
+                </ul>
+              </div>
+            </li>
+            <li class="dropdown_wrapper">
+              Admin
+              <div class="dropdown_menu">
+                <ul class="dropdown_item_wrapper">
+                  <li class="dropdown_item">Add Video</li>
+                  <li class="dropdown_item">Plan</li>
+                  <li class="dropdown_item">
+                    <a href="./admin.html">Profile</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>Contact Us</li>
+            <button type="button" class="btn btn-danger">
+              <a href="#" id="logInOutBtn">Login</a>
+            </button>
+            <p id="userName" class="userNameText"></p>
+          </ul>
+        </div>
+      </div>
+      <div id="mainCr" class="owl-carousel owl-theme">
+        <div class="item header-image-wrapper deadpool">
+          <div class="text-header">
+            <button type="button" class="btn btn-warning">Premium</button>
+            <h1>Deadpool: No Good Deed</h1>
+            <h6>cast:</h6>
+            <p>Ryan Reynolds</p>
+            <p>Morena Baccarin (Vanessa)</p>
+            <button>HD</button>
+            <span>Rated 8.5 Genre: Horror, Comedy,Action,Sci-Fi.</span>
+          </div>
+          <div class="button">
+            <button type="button" class="btn btn-danger">Watch</button>
+            <button id="addWishListBtn">+Add To Watchlist</button>
+          </div>
+        </div>
+        <div class="item header-image-wrapper superman">
+          <div class="text-header">
+            <button type="button" class="btn btn-warning">Premium</button>
+            <h1>Deadpool: No Good Deed</h1>
+            <h6>cast:</h6>
+            <p>Ryan Reynolds</p>
+            <p>Morena Baccarin (Vanessa)</p>
+            <button>HD</button>
+            <span>Rated 8.5 Genre: Horror, Comedy,Action,Sci-Fi.</span>
+          </div>
+          <div class="button">
+            <button type="button" class="btn btn-danger">Watch</button>
+            <button>+Add To Watchlist</button>
+          </div>
+        </div>
+        <div class="item header-image-wrapper awangers">
+          <div class="text-header">
+            <button type="button" class="btn btn-warning">Premium</button>
+            <h1>Deadpool: No Good Deed</h1>
+            <h6>cast:</h6>
+            <p>Ryan Reynolds</p>
+            <p>Morena Baccarin (Vanessa)</p>
+            <button>HD</button>
+            <span>Rated 8.5 Genre: Horror, Comedy,Action,Sci-Fi.</span>
+          </div>
+          <div class="button">
+            <button type="button" class="btn btn-danger">Watch</button>
+            <button>+Add To Watchlist</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="manage_profile">
+      <div class="container" style="width: 70%">
+        <div class="row">
+          <form id="video_form">
+            <div class="form-row">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label class="mainLabel" for="videoType">Video File</label>
+                  <select id="videoType" class="form-control">
+                    <option  selected value="fullHd" id="fullHd">Full Hd</option>
+                    <option id="hd" value="hd">Hd</option>
+                  </select>
+                </div>
+                <div
+                  class="form-group col-md-6"
+                  style="display: flex; flex-direction: column"
+                >
+                  <label
+                    class="custom-file-label mainLabel"
+                    for="validatedCustomFile"
+                    >Choose file...</label
+                  >
+
+                  <img id="output_image" height=200px width='200px'/>
+                  <input
+                    type="file"
+                    class="custom-file-input"
+                    id="validatedCustomFile"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="videoTitle" class="mainLabel">Video Title</label>
+              <input
+                type="text"
+                class="form-control"
+                id="videoTitle"
+                placeholder="Enter video title"
+              />
+            </div>
+            <div class="form-group">
+              <label for="team" class="mainLabel">Cast Crew</label>
+              <input
+                type="text"
+                class="form-control"
+                id="team"
+                placeholder="Type name of your team"
+              />
+            </div>
+            <div class="form-group">
+              <label for="genere" class="mainLabel">Genere</label>
+              <input
+                type="text"
+                class="form-control"
+                id="genere"
+                placeholder="Type Genere"
+              />
+            </div>
+            <div class="row" style="align-items: center;">
+              <div class="form-group col-md-6">
+                <label class="mainLabel" for="lang">Choose Language</label>
+                <select id="lang" class="form-control">
+                  <option selected value="english" id="english">English</option>
+                  <option value="spanish" id="spanish">Spanish</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        id="premimum"
+                        checked
+                        value="premimum"
+
+                      />
+                      <label class="form-check-label" for="gridCheck">
+                        Premium
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        value="free"
+                        id="free"
+                      />
+                      <label class="form-check-label" for="gridCheck">
+                        Free
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+                <label for="description" class="mainLabel">Genere</label>
+                <textarea class="form-control" id="description" rows="3"></textarea>
+              </div>
+            <button style="margin-top:10px" type="submit" class="btn btn-primary" id="publishBtn">Publish video</button>
+            <button style="margin-top:10px" type="submit" class="btn btn-primary" id="deleteBtn">Delete video</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"
+      integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="module" src="./assets/js/main.js"></script>
+    <script type="module" src="./assets/js/admin.js"></script>
+  </body>
+</html>
